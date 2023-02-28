@@ -24,6 +24,8 @@ export default function Home() {
                         <p>Tiempo: {time} </p>
 
                         <p>El interes simple es {calculateInterest(capital, interest, time)}</p>
+
+                        <p>im fucking busy thanks to preparing for uni, i miss coding a way to much lol</p>
                 </>
 
         )
