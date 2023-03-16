@@ -23,8 +23,7 @@ export function Box() {
                                 anual por <input min="1" className="w-12 h-5 mb-2" onInput={timeHandler} type="number" /> meses.
                                 ¿Cual es el interes simple que genera dicho prestamo?</p>
 
-                        <p className="m-2 p-1 bg-blue-500 w-6/12 rounded-xl">El interes simple es {calculateInterest(capital, interest, time) === 0 ? "..." : `${calculateInterest(capital, interest, time)} soles.`}</p>
-
+                        <p className="m-2 p-1 bg-blue-500 w-6/12 rounded-xl">El interes simple es {calculateInterest(capital, interest, time) === 0 ? "..." : `${calculateInterest(capital, interest, time).toFixed(3)} soles.`}</p>
                 </div>
 
         )
